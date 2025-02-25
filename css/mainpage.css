@@ -74,6 +74,10 @@ li{
     z-index: 1;
 }
 
+a:visited{
+    color: inherit;
+}
+
 .label-box{
     text-align: center;
     color: white;
@@ -198,5 +202,9 @@ footer{
     background-color: #1A1A1A;
     padding: 20px 0;
     color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
