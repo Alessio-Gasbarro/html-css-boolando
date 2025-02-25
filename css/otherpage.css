@@ -29,6 +29,7 @@ li{
 }
 
 /*--LOGO--*/
+
 .logo{
     height: 30px;
 }
@@ -39,7 +40,7 @@ li{
 
 .card{
     position: relative;
-    height: 515px;
+    height: 450px;
 }
 
 .card img{
@@ -52,6 +53,67 @@ li{
     position: absolute;
     z-index: 1;
 }
+
+.hover-img:hover{
+    opacity: 1;
+}
+
+.favourite:hover{
+    color: red;
+}
+
+.favourite{
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+}
+
+.label-box{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.label{
+    padding: 5px;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.company-name{
+    width: 100%;
+    padding: 5px 0;;
+}
+
+.social-box{
+    width: 100%;
+    padding: 5px 0;
+}
+
+.social-icon{
+    margin: 0 5px;
+}
+
 
 /*--CONTAINERS--*/
 
@@ -118,9 +180,14 @@ li{
     flex-wrap: wrap;
 }
 
-/*--SEZIONE MAIN--*/
-
 main{
     padding-top: 50px;
 }
 
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: lawngreen;
+}
